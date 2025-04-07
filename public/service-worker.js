@@ -3,7 +3,7 @@
 
 const CACHE_NAME = 'galal-exporting-cache-v1';
 const urlsToCache = [
-  '/',
+  './',
   './index.html',
   './src/main.tsx',
   './src/index.css',
