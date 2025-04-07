@@ -4,9 +4,9 @@
 const CACHE_NAME = 'galal-exporting-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/src/main.tsx',
-  '/src/index.css',
+  './index.html',
+  './src/main.tsx',
+  './src/index.css',
   'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
   'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'
 ];
