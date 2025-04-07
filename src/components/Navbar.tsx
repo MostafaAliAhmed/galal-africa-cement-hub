@@ -27,36 +27,36 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#hero" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full bg-sand-500 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center">
             <span className="text-white font-heading font-bold text-lg">G</span>
           </div>
-          <span className={`font-heading font-bold text-xl ${isScrolled ? 'text-sand-800' : 'text-sand-800'}`}>
+          <span className={`font-heading font-bold text-xl ${isScrolled ? 'text-blue-800' : 'text-blue-800'}`}>
             Galal Exporting
           </span>
         </a>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#about" className={`font-medium ${isScrolled ? 'text-sand-800' : 'text-sand-800'} hover:text-sand-600 transition-colors`}>
+          <a href="#about" className={`font-medium ${isScrolled ? 'text-blue-800' : 'text-blue-800'} hover:text-blue-600 transition-colors`}>
             About Us
           </a>
-          <a href="#services" className={`font-medium ${isScrolled ? 'text-sand-800' : 'text-sand-800'} hover:text-sand-600 transition-colors`}>
+          <a href="#services" className={`font-medium ${isScrolled ? 'text-blue-800' : 'text-blue-800'} hover:text-blue-600 transition-colors`}>
             Products
           </a>
-          <a href="#markets" className={`font-medium ${isScrolled ? 'text-sand-800' : 'text-sand-800'} hover:text-sand-600 transition-colors`}>
+          <a href="#markets" className={`font-medium ${isScrolled ? 'text-blue-800' : 'text-blue-800'} hover:text-blue-600 transition-colors`}>
             Markets
           </a>
-          <a href="#contact" className={`font-medium ${isScrolled ? 'text-sand-800' : 'text-sand-800'} hover:text-sand-600 transition-colors`}>
+          <a href="#contact" className={`font-medium ${isScrolled ? 'text-blue-800' : 'text-blue-800'} hover:text-blue-600 transition-colors`}>
             Contact
           </a>
-          <Button variant="default" className="bg-sand-500 hover:bg-sand-600 text-white">
+          <Button variant="default" className="bg-blue-500 hover:bg-blue-600 text-white">
             Request Quote
           </Button>
         </nav>
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-sand-800" 
+          className="md:hidden text-blue-800" 
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -67,19 +67,19 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="container mx-auto px-4 py-4 flex flex-col">
-            <a href="#about" className="py-3 font-medium text-sand-800 hover:text-sand-600" onClick={() => setIsMobileMenuOpen(false)}>
+            <a href="#about" className="py-3 font-medium text-blue-800 hover:text-blue-600" onClick={() => setIsMobileMenuOpen(false)}>
               About Us
             </a>
-            <a href="#services" className="py-3 font-medium text-sand-800 hover:text-sand-600" onClick={() => setIsMobileMenuOpen(false)}>
+            <a href="#services" className="py-3 font-medium text-blue-800 hover:text-blue-600" onClick={() => setIsMobileMenuOpen(false)}>
               Products
             </a>
-            <a href="#markets" className="py-3 font-medium text-sand-800 hover:text-sand-600" onClick={() => setIsMobileMenuOpen(false)}>
+            <a href="#markets" className="py-3 font-medium text-blue-800 hover:text-blue-600" onClick={() => setIsMobileMenuOpen(false)}>
               Markets
             </a>
-            <a href="#contact" className="py-3 font-medium text-sand-800 hover:text-sand-600" onClick={() => setIsMobileMenuOpen(false)}>
+            <a href="#contact" className="py-3 font-medium text-blue-800 hover:text-blue-600" onClick={() => setIsMobileMenuOpen(false)}>
               Contact
             </a>
-            <Button variant="default" className="mt-3 bg-sand-500 hover:bg-sand-600 text-white">
+            <Button variant="default" className="mt-3 bg-blue-500 hover:bg-blue-600 text-white">
               Request Quote
             </Button>
           </div>

@@ -22,7 +22,7 @@ const markets = [
   },
   {
     name: "Southern Africa",
-    image: "https://images.unsplash.com/photo-1562184552-997c461abbe6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     countries: ["South Africa", "Zimbabwe", "Zambia", "Mozambique"],
     stats: "15% of export volume"
   }
@@ -33,7 +33,7 @@ const Markets = () => {
     <section id="markets" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-sand-800 mb-4">Our African Markets</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-blue-800 mb-4">Our African Markets</h2>
           <p className="text-lg text-gray-600">
             From Egypt to the rest of Africa, we supply quality cement products to support infrastructure development across the continent.
           </p>
@@ -68,7 +68,7 @@ const Markets = () => {
           ))}
         </div>
         
-        <div className="mt-16 relative p-8 rounded-xl bg-gradient-to-r from-ocean-600 to-ocean-800 overflow-hidden">
+        <div className="mt-16 relative p-8 rounded-xl bg-gradient-to-r from-blue-600 to-blue-800 overflow-hidden">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
           
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
@@ -82,8 +82,8 @@ const Markets = () => {
             </div>
             <div className="flex justify-center md:justify-end">
               <img 
-                src="https://images.unsplash.com/photo-1547610759-2adb7e5658a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="Shipping container" 
+                src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                alt="African landscape" 
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white/20"
               />
             </div>

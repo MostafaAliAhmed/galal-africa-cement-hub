@@ -53,19 +53,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sand: {
-					50: "#fbf8f2",
-					100: "#f6eee1",
-					200: "#edd9c0",
-					300: "#e2be96",
-					400: "#d49e6a",
-					500: "#c78246",
-					600: "#b56939",
-					700: "#964e2d",
-					800: "#7a4028",
-					900: "#643622",
-					950: "#361a10",
+				// Changed sand to blue
+				blue: {
+					50: "#eef6ff",
+					100: "#d9eaff",
+					200: "#b8d9ff",
+					300: "#85c0ff",
+					400: "#4a9eff",
+					500: "#1e78ff",
+					600: "#0a58f0",
+					700: "#0d47dd",
+					800: "#1239b3",
+					900: "#15348c",
+					950: "#0f2152",
 				},
+				// Kept clay for contrast
 				clay: {
 					50: "#f9f6f4",
 					100: "#f2ebe6",
@@ -79,6 +81,7 @@ export default {
 					900: "#5d392f",
 					950: "#311b17",
 				},
+				// Kept ocean as it's already blue
 				ocean: {
 					50: "#f0f9ff",
 					100: "#e0f2fe",
@@ -92,18 +95,19 @@ export default {
 					900: "#0c4a6e",
 					950: "#082f49",
 				},
+				// Changed africa to a deep blue
 				africa: {
-					50: "#f2fcf4",
-					100: "#e0f9e7",
-					200: "#c4f1d2",
-					300: "#98e4b5",
-					400: "#64cf8f",
-					500: "#3cb16d",
-					600: "#2a9056",
-					700: "#237248",
-					800: "#1f5a3c",
-					900: "#1a4b33",
-					950: "#0c291c",
+					50: "#f0f6ff",
+					100: "#e0ecff",
+					200: "#bfd6ff",
+					300: "#94b8ff",
+					400: "#6191ff",
+					500: "#3a6cf9",
+					600: "#2251ef",
+					700: "#1940df",
+					800: "#1834b5",
+					900: "#1a338e",
+					950: "#14205a",
 				},
 			},
 			fontFamily: {

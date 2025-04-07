@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-sand-800 mb-4">About Galal Exporting</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-blue-800 mb-4">About Galal Exporting</h2>
           <p className="text-lg text-gray-600">
             Trusted cement exporters connecting Egyptian manufacturing excellence with growing African markets for over a decade.
           </p>
@@ -17,8 +17,8 @@ const About = () => {
             <div className="relative">
               <div className="w-full rounded-xl overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1605278815200-89db9fc9037d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Cement factory" 
+                  src="https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                  alt="Egyptian architecture and cement" 
                   className="w-full h-auto"
                 />
               </div>
@@ -37,44 +37,44 @@ const About = () => {
           </div>
           
           <div>
-            <h3 className="text-2xl font-bold text-sand-800 mb-4">Egypt's Premier Cement Exporter</h3>
+            <h3 className="text-2xl font-bold text-blue-800 mb-4">Egypt's Premier Cement Exporter</h3>
             <p className="text-gray-600 mb-6">
               Founded with a vision to connect Egyptian manufacturing excellence with growing African markets, Galal Exporting has established itself as a reliable partner for quality cement products across the continent.
             </p>
             
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-3">
-                <div className="mt-1 w-5 h-5 rounded-full bg-sand-100 flex items-center justify-center flex-shrink-0">
-                  <Check className="w-3 h-3 text-sand-600" />
+                <div className="mt-1 w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <Check className="w-3 h-3 text-blue-600" />
                 </div>
                 <p className="text-gray-600">Quality-certified cement from Egypt's leading manufacturers</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="mt-1 w-5 h-5 rounded-full bg-sand-100 flex items-center justify-center flex-shrink-0">
-                  <Check className="w-3 h-3 text-sand-600" />
+                <div className="mt-1 w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <Check className="w-3 h-3 text-blue-600" />
                 </div>
                 <p className="text-gray-600">Efficient logistics and shipping from Alexandria and Port Said</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="mt-1 w-5 h-5 rounded-full bg-sand-100 flex items-center justify-center flex-shrink-0">
-                  <Check className="w-3 h-3 text-sand-600" />
+                <div className="mt-1 w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <Check className="w-3 h-3 text-blue-600" />
                 </div>
                 <p className="text-gray-600">Local representatives in key African markets for personalized service</p>
               </div>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-4 bg-sand-50 rounded-lg">
+              <div className="p-4 bg-blue-50 rounded-lg">
                 <div className="flex items-center gap-2 mb-2">
-                  <Building className="w-5 h-5 text-sand-600" />
-                  <span className="font-medium text-sand-800">Headquartered</span>
+                  <Building className="w-5 h-5 text-blue-600" />
+                  <span className="font-medium text-blue-800">Headquartered</span>
                 </div>
                 <p className="text-sm text-gray-600">Cairo Nasr City, Egypt</p>
               </div>
-              <div className="p-4 bg-sand-50 rounded-lg">
+              <div className="p-4 bg-blue-50 rounded-lg">
                 <div className="flex items-center gap-2 mb-2">
-                  <Truck className="w-5 h-5 text-sand-600" />
-                  <span className="font-medium text-sand-800">Export Volume</span>
+                  <Truck className="w-5 h-5 text-blue-600" />
+                  <span className="font-medium text-blue-800">Export Volume</span>
                 </div>
                 <p className="text-sm text-gray-600">500,000+ tons annually</p>
               </div>

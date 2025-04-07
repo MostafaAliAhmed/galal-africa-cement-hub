@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section 
       id="hero" 
-      className="relative min-h-screen flex items-center pt-16 pb-20 bg-gradient-to-br from-sand-50 to-sand-100 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-16 pb-20 bg-gradient-to-br from-blue-50 to-blue-100 overflow-hidden"
     >
       {/* Background Elements */}
       <div className="absolute inset-0 z-0 overflow-hidden">
@@ -18,17 +18,17 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <div className="max-w-lg">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-sand-900 leading-tight mb-4">
-                Connecting <span className="text-sand-600">Egypt</span> to <span className="text-africa-700">Africa</span> Through Quality Cement
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-blue-900 leading-tight mb-4">
+                Connecting <span className="text-blue-600">Egypt</span> to <span className="text-africa-700">Africa</span> Through Quality Cement
               </h1>
               <p className="text-lg text-gray-600 mb-8">
-                Premium cement exports from the heart of Egypt to growing African markets. Building stronger foundations for a connected future.
+                Premium cement exports from the land of the pyramids to growing African markets. Building stronger foundations for a connected future.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button className="bg-sand-500 hover:bg-sand-600 text-white px-6 py-6">
+                <Button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-6">
                   Our Products
                 </Button>
-                <Button variant="outline" className="border-sand-500 text-sand-600 hover:bg-sand-50 px-6 py-6">
+                <Button variant="outline" className="border-blue-500 text-blue-600 hover:bg-blue-50 px-6 py-6">
                   Contact Us
                 </Button>
               </div>
@@ -38,8 +38,8 @@ const Hero = () => {
           <div className="order-1 lg:order-2 relative">
             <div className="relative w-full h-80 lg:h-[450px] overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="Cement export facility" 
+                src="https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                alt="Egyptian pyramids with cement factory" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
