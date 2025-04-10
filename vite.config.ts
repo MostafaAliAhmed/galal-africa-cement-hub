@@ -3,25 +3,23 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  // ✅ Required for GitHub Pages (repo-name = galal-africa-cement-hub)
-  base: mode === 'production' ? '/galal-africa-cement-hub/' : '/',
-  
+export default defineConfig({
+  // ✅ GitHub Pages base path must match your repo name
+  base: "/galal-africa-cement-hub/",
+
   server: {
     host: "::",
     port: 8080,
   },
-  
+
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
-  ].filter(Boolean),
+    componentTagger(),
+  ],
 
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
-
+});
