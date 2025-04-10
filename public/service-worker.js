@@ -4,7 +4,7 @@
 const CACHE_NAME = 'galal-exporting-cache-v1';
 const urlsToCache = [
   './',
-  './index.html',
+  './galal-africa-cement-hub/index.html',
   './manifest.json',
   './assets/',
   'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
