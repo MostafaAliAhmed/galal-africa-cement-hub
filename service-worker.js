@@ -3,7 +3,7 @@
 
 const CACHE_NAME = 'galal-exporting-cache-v1';
 const urlsToCache = [
-  './',
+  './galal-africa-cement-hub/',
   './galal-africa-cement-hub/index.html',
   './galal-africa-cement-hub/manifest.json',
   './galal-africa-cement-hub/assets/',
