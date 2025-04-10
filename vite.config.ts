@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "./galal-africa-cement-hub/", // Setting base to relative path for GitHub Pages
+  base: "/galal-africa-cement-hub/", // Setting base to relative path for GitHub Pages
   build: {
     outDir: "dist",
     assetsDir: "assets",
